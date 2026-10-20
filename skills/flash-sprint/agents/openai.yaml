@@ -1,0 +1,4 @@
+interface:
+  display_name: "FlashSprint"
+  short_description: "Спринт из обсуждения: задачи, HTML и сохранённые статусы"
+  default_prompt: "Use $flash-sprint: найди текущий спринт, восстанови его состояние и продолжи работу с задачами и HTML по моему запросу."
