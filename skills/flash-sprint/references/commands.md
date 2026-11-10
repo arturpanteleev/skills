@@ -41,6 +41,15 @@ gh pr checks <pr>                                        # или CLI своег
 gh pr view <pr> --json state,mergeable,statusCheckRollup,headRefOid
 ```
 
+## Ожидание CI вне модели
+
+```sh
+# Только переходы состояния (CLEAN / BEHIND / DIRTY / fail / MERGED), выход при MERGED всех.
+# Запускать у оркестратора через Monitor или в фоне, а не в цикле внутри агента.
+<путь к скилу>/scripts/pr-watch.sh -i 90 <pr> [<pr> ...]
+gh run rerun <run-id> --failed       # флейк — перезапуск без агента
+```
+
 ## Свежесть ветки
 
 ```sh

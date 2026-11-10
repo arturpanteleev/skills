@@ -68,7 +68,7 @@ HTML — рабочее представление. Jira определяет о
 
 ## Исполнение и возобновление
 
-Работа по выбранным задачам — [references/execution-loop.md](references/execution-loop.md); ревью — [references/review-protocol.md](references/review-protocol.md); команды — [references/commands.md](references/commands.md).
+Работа по выбранным задачам — [references/execution-loop.md](references/execution-loop.md); ревью — [references/review-protocol.md](references/review-protocol.md); команды — [references/commands.md](references/commands.md). При параллельных исполнителях — сначала [references/agent-economy.md](references/agent-economy.md): ожидание вне модели, роли и модели, размер пакета, гигиена контекста оркестратора.
 
 При переходе между чатами восстанови состояние из файлов и источников, затем продолжай оставшееся. Не перенумеровывай задачи и не переделывай подтверждённо завершённое. Если файлы, браузерный экспорт и серверные статусы расходятся, разбери конфликт до перезаписи.
 
