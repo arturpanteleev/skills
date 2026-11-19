@@ -1,0 +1,3 @@
+interface:
+  display_name: "Монтаж видео"
+  short_description: "Монтаж исходных видео под музыку с проверкой качества"

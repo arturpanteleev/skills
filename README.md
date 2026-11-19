@@ -118,6 +118,25 @@ uv run --with pyyaml python -m unittest discover -s tests -v
 В Codex можно вызвать `$flash-sprint`; в остальных окружениях — попросить использовать
 FlashSprint или выбрать навык доступным там способом.
 
+## Video Editing
+
+`skills/video-editing/` — монтаж Reels и других роликов из оригинальных видео:
+визуальный отбор, сценарий, музыка, сохранение нарезок, кадрирование и проверенный MP4.
+Внутри находятся переносимые Python-скрипты для FFmpeg/ffprobe, справочные правила
+и пример `project.json`. Обычный экспорт сохраняет исходный HDR/SDR и использует
+качественное сжатие разумного размера; lossless включается отдельно.
+
+```sh
+./tools/skills.py check video-editing
+./tools/skills.py install video-editing
+python3 skills/video-editing/scripts/video.py doctor
+```
+
+Для рендера нужны Python 3.10+ и FFmpeg с libx264/libx265. Дополнительные зависимости
+для контактных листов и музыки перечислены в `scripts/requirements.txt` внутри скилла.
+Установка, команды и ограничения описаны в его `SKILL.md` и `references/portability.md`.
+Скилл не включает личные видео, музыкальные файлы или API-ключи.
+
 ## GitHub
 
 Синхронизация пока только на одном компьютере. Инструмент не делает commit, push,

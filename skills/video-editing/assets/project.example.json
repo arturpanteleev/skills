@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "title": "йога классис",
+  "date": "19.11.26",
+  "sources": {"source1": "source/input.mp4"},
+  "clips": [
+    {"source": "source1", "in": 0, "out": 4, "action": "Включение камеры, взгляд", "reason": "Живое вступление"},
+    {"source": "source1", "in": 24.6, "out": 28.2, "action": "Непрерывный подъём руки", "reason": "Показать действие целиком, без ложного продолжения на склейке"},
+    {"source": "source1", "in": 60.8, "out": 62.6, "action": "Раскрытие другой стороны", "reason": "Читаемая смена силуэта"},
+    {"source": "source1", "in": 73.3, "out": 75.1, "action": "Баланс и взгляд", "reason": "Контакт с камерой"},
+    {"source": "source1", "in": 80.2, "out": 82, "action": "Углубление положения", "reason": "Развитие движения"},
+    {"source": "source1", "in": 95, "out": 96.8, "action": "Перенос веса", "reason": "Следующий этап баланса"},
+    {"source": "source1", "in": 69.6, "out": 71.4, "action": "Возвращение в упор", "reason": "Завершение и взгляд к зрителю"}
+  ],
+  "music": {"path": "music/track.mp3", "start": 34.55, "bpm": 100, "credit": "Сохранить проверенные условия и текст в music_credit.txt", "fade_out": 0.24, "lufs": -16},
+  "crop": {"x": 0, "y": 0, "width": 1008, "height": 1792},
+  "output": {"width": 1080, "height": 1920, "fps": 30, "preset": "quality"}
+}

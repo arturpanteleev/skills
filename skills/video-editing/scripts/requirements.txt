@@ -1,0 +1,4 @@
+# Optional analysis/preview dependencies; the renderer itself uses the stdlib.
+Pillow>=10,<13
+numpy>=1.26,<3
+scipy>=1.11,<2
